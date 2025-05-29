@@ -118,13 +118,6 @@ The final comparison of Logistic Regression performance on the original test set
 - **Neural Network**: The SMOTE-trained neural network outperforms the undersampled version, with fewer false positives and a more practical precision-recall trade-off.
 - **Misleading Accuracy**: High accuracy (e.g., 98.81% with SMOTE) is misleading due to the imbalanced dataset. Focus on precision, recall, and F1-score for fraud detection.
 
-### 5. Recommendations
-- **Preferred Model**: The neural network with SMOTE is recommended for real-world deployment due to its balanced precision (0.761) and recall (0.714), minimizing both false positives and missed fraud cases.
-- **Evaluation Metrics**: Use F1-score, precision, recall, and ROC-AUC instead of accuracy to evaluate performance on imbalanced data.
-- **Future Improvements**:
-  - Experiment with advanced models (e.g., XGBoost, Random Forest with SMOTE).
-  - Tune neural network architecture (e.g., additional layers, dropout) to further improve performance.
-  - Explore ensemble methods to combine undersampling and oversampling benefits.
 
 ---
 
